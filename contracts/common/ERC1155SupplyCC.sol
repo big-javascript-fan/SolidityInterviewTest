@@ -16,6 +16,8 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 abstract contract ERC1155SupplyCC is ERC1155 {
     mapping(uint256 => uint256) private _totalSupply;
 
+    constructor(string memory _uri) ERC1155(_uri) {}
+
     /**
      * @dev Total amount of tokens in with a given id.
      */

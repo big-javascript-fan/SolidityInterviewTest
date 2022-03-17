@@ -7,7 +7,7 @@ We have deliberately made some very silly mistakes and simple things like file n
 
 Why was this file used and not used directly from the OpenZeppling library?
 
-### Claim()
+### claim()
 
 Please adjust the claim function so that an address can only claim once per day.
 
